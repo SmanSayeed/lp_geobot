@@ -1,8 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');  
 @tailwind base;
 @tailwind components;
-@tailwind utilities;
+@tailwind utilities;z
+
+:root {
+  --gradient-color: linear-gradient(90.15deg, #5E82A3 -18.97%, #9747FF 97.15%);
+  --white: #ffffff;
+  --black:#000; 
+  --neutro-dark: #515063;
+}
+
 
 @layer base {
   html {
@@ -10,10 +18,38 @@
   }
 
   body {
-    @apply text-dark overflow-x-hidden;
+    @apply overflow-x-hidden text-dark;
   }
 
   .container{
     @apply !w-full !px-[.75rem] mx-auto 2xl:!max-w-[1420px] xl:!max-w-[1200px] lg:!max-w-[992px] md:!max-w-[720px] sm:!max-w-[576px]
   }
+
+  .gradiant-text{   
+    background: linear-gradient(90.15deg, #5E82A3 -18.97%, #9747FF 97.15%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  
+  .col-center{
+    @apply flex flex-col items-center justify-center;
+  }
+  .row-center{
+    @apply flex flex-row items-center justify-center;
+  }
+  /* .card{
+    @apply 
+  } */
+  .card{
+   @apply rounded-[12px] py-4 px-24; /* padding: 16px 112px;*/
+  }
+  .card-light{
+    border: 1.2px solid #E0E0EB;
+  }
+  .card-gradiant{   
+    background: linear-gradient(80.89deg, #5E82A3 12.86%, #9747FF 86.51%);
+  } 
+
 }
+  
