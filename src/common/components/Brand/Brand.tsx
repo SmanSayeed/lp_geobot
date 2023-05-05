@@ -8,8 +8,8 @@ const Brand = () => {
         <Image
           src={logoName}
           alt="logo"
-          width={120}
-          height={60}
+          width={107}
+          height={28}
           className="cursor-pointer "
         />
       </Link>

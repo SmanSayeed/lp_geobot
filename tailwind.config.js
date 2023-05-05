@@ -43,6 +43,8 @@ module.exports = {
         green: "#34A853",
         primary_blue: "#0E82ED",
         secondry_purple: "#8F4BCE",
+        secondry_purple_light: "#E9D1FF",
+        primary_black:"#2F2F37"
       },
       fontFamily: {
         primary: ["Montserrat", "sans-serif"],
