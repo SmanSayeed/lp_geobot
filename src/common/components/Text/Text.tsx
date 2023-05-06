@@ -1,13 +1,14 @@
 import React from 'react'
-
+import { FC } from "react";
 type Props = {
-    text:String,
-    css:String
+    text:String;
+    css:String;
+    onClick?: () => any;
 }
 
-const Text = ({text,css}: Props) => {
+const Text:FC<Props> = ({onClick = () => {},text,css}: Props) => {
   return (
-    <div className={`${css}`}>{text}</div>
+    <div className={`${css}`} onClick={onClick}>{text}</div>
   )
 }
 

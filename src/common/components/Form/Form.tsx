@@ -5,7 +5,7 @@ type Props = {};
 const Form = (props: Props) => {
   return (
     <>
-      <div className="w-50 flex flex-col gap-5">
+      <div className="w-50 flex flex-col gap-5 mt-5">
         <div className="flex flex-row gap-5">
           <select className="forminput h-12 w-30">
             <option>Brasil +55</option>
