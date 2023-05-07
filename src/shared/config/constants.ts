@@ -10,7 +10,7 @@ export const brands = {
   brand4: "/img/logo/brand-4.png",
 };
 export const blue_bg = "/img/bg/bg.png";
-export const left_img = "/img/person/girl.png";
+export const left_img = "/img/person/girl-3.png";
 export const right_img = "/img/person/man.png";
 export const message_left = "/img/features/message-left.png";
 export const message_right = "/img/features/message-right.png";

@@ -12,7 +12,7 @@ const HomeRightImage = (props: Props) => {
     <>
         
       {/* RIGHT image section  */}
-      <div className="left-image-section items-start justify-between ">
+      <div className="left-image-section px-0 items-start justify-between ">
         <div className="left-part lg:w-[50%]  ">
           <Card css="">
             {/* first para  */}
@@ -35,6 +35,9 @@ const HomeRightImage = (props: Props) => {
         text="Dessa forma, você pode saber de onde a pessoa está vindo e qual assunto ela deseja tratar, tornando a comunicação mais eficiente e evitando perda de tempo."
         css="text-font-sm text-neutro_dark_02"
       />
+      <br/>
+      <br/>
+      <br/>
             {/* second para  */}
             <Text
         text="Qual o melhor gerador de link WhatsApp?"
@@ -64,8 +67,8 @@ const HomeRightImage = (props: Props) => {
       />
           </Card>
         </div>
-        <div className="right-part  ">
-          <Image src={left_img} height="362" width="419" alt="brand logo" />
+        <div className="lg:w-[42%]">
+          <Image src={left_img} height="387" width="538" alt="brand logo" />
         </div>
       </div>
       {/* right image section end */}

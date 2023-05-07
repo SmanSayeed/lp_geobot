@@ -9,7 +9,7 @@ const HomeLastSection = (props: Props) => {
     <div>
             {/* last gradiant section  */}
       <div className="">
-        <div className="py-20 col-center">
+        <div className="py-20 col-center ">
           <Card css="px-2 py-12 bg-gradiant flex justify-center items-stretch gap-5">
             <div className="self-end hidden lg:flex flex-col">
               <div className="message message_left_top w-[90px] ">
@@ -23,7 +23,7 @@ const HomeLastSection = (props: Props) => {
               </div>
 
             </div>
-            <div className="flex col-center lg:w-1/2">
+            <div className="flex col-center gap-3 lg:w-1/2">
               <Text
                 text="Impulsione seu negócio com nosso gerador gratuito"
                 css="text-font-md text-[24px] text-light text-center w-2/3"
@@ -45,7 +45,7 @@ const HomeLastSection = (props: Props) => {
                 alt="brand logo"
               /> */}
                <div className="message message_right_top w-[90px] ">
-                <Text text="Cliente" css="text-left text-secondry_purple font-[600]  text-[10px]" />
+                <Text text="Cliente" css="text-left text-secondry_purple font-[600] text-[10px]" />
                 <div className="h_line w-[58px]"></div>
               </div>          
               <div className="message ">
