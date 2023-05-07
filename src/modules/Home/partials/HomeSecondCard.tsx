@@ -10,13 +10,13 @@ type Props = {}
 
 const HomeSecondCard = (props: Props) => {
   return (
-    <div>
+    <>
         
       {/* jointed gradiant cards  */}
-      <div className="">
-        <div className="py-5 col-center">
-          <Card css="px-8 py-8 bg-gradiant col-center lg:row-center gap-5">
-            <Card css="">
+
+        <div className="mt-5 col-center bg-yellow-300">
+          <Card css="w-full p-8 py-8 bg-gradiant flex col-center lg:flex-row lg:justify-between lg:items-start gap-5">
+            <Card css="second-section-card">
               <Icon
                 icon={LinkIcon}
                 iconColor="fill-primary_blue"
@@ -32,7 +32,7 @@ const HomeSecondCard = (props: Props) => {
                 css="joint-card-text"
               />
             </Card>
-            <Card css="">
+            <Card css="second-section-card">
               <Icon
                 icon={SortDescendingIcon}
                 iconColor="fill-primary_blue"
@@ -48,7 +48,7 @@ const HomeSecondCard = (props: Props) => {
                 css="joint-card-text"
               />
             </Card>
-            <Card css="">
+            <Card css="second-section-card">
               <Icon
                 icon={DownloadIcon}
                 iconColor="fill-primary_blue"
@@ -66,9 +66,9 @@ const HomeSecondCard = (props: Props) => {
             </Card>
           </Card>
         </div>
-      </div>
+
       {/* jointed gradiant cards end */}
-    </div>
+    </>
   )
 }
 

@@ -1,17 +1,20 @@
 import Text from "@components/Text";
 
-type Props = {};
+type Props = {
+  title:string;
+  text:any;
+};
 
-const Content = (props: Props) => {
+const Content = ({title,text}: Props) => {
   return (
     <>
       <Text
-        text="Acelere suas vendas com o Gerador de Links para WhatsApp Businness"
-        css="text-font-lg gradiant-text"
+        text={title}
+        css="small-gradiant-title font-700 text-left mb-2"
       />
 
       <Text
-        text="Com o gerador de link do Geobot, encurte e rastreie links do WhatsApp com facilidade! Gere um link personalizado com uma mensagem personalizada e acompanhe suas estatísticas. Obtenha mais controle sobre onde e para quem seu link é gerado. Aumente a eficácia das suas comunicações pelo WhatsApp agora!"
+        text={text}
         css="text-font-sm text-neutro_dark_02"
       />
     </>

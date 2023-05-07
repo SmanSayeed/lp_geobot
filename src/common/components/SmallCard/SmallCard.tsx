@@ -4,7 +4,9 @@ import List from "@components/List/List";
 import Text from "@components/Text";
 import { WhatsAppIcon } from "@libs/svg/WhatsappIcon";
 
-type Props = {};
+type Props = {
+  css?:string
+};
 const listItemCard1 = [
   { text: "Vários atendentes" },
   { text: "Único número WhatsApp" },
@@ -12,10 +14,10 @@ const listItemCard1 = [
   { text: "Vários departamentos" },
 ];
 
-const SmallCard = (props: Props) => {
+const SmallCard = ({css}: Props) => {
   return (
     <>
-      <Card css="small-card card-light">
+      <Card css={`card-light  ${css} `}>
         <Icon
           icon={WhatsAppIcon}
           iconColor="fill-light"

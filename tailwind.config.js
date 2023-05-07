@@ -15,19 +15,24 @@ module.exports = {
       }),
       fontSize: {   
         'font-sm-btn': ['1rem', { /*16px*/
-          lineHeight: '2rem',
+          lineHeight: '1.5',
           fontWeight: '600',
         }],
         'font-sm': ['1rem', { /*16px*/
-          lineHeight: '2rem',
-          fontWeight: '500',
+          lineHeight: '1.5',
+          fontWeight: '300a',
         }],
         'font-md': ['1.125rem', { /*18px*/
-          lineHeight: '2rem',
+          lineHeight: '1.5',
           fontWeight: '600',
         }], 
+       
+        'font-lg-mobile': ['1.2rem', { /* 32px */
+          lineHeight: '1',
+          fontWeight: '800',
+        }],
         'font-lg': ['2rem', { /* 32px */
-          lineHeight: '120%',
+          lineHeight: '1.2',
           fontWeight: '800',
         }],
         'font-xl': ['2.5rem', { /* 40px */
